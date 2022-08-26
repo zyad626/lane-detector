@@ -12,7 +12,7 @@ while True:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 255), 2)
     cv2.imshow('Output', frame )
     key=cv2.waitKey(1)
-    #press escape key to turn off
+    #press escape key to turn off (escape key => 27)
     if key == 27:
         break
 cap.release()
