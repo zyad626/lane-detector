@@ -118,8 +118,6 @@ def display_lines(image, lines):
 
 def frame_process(img):
     # Read Image
-    # img  = cv2.imread('test_images/test1')
-    # img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
     copy = np.copy(img)
 
     # Convert to Grayscale
@@ -155,7 +153,6 @@ if sys.argv[1][-1] == 'i':
     plt.show()
 
 elif sys.argv[1][-1] == "v":
-    #path = input("Enter the path for the video to process (example: project_video.mp4):\n> ")
     video = cv2.VideoCapture(path)
     frame_width = int(video.get(3))
     frame_height = int(video.get(4))
