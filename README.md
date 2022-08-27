@@ -7,7 +7,7 @@ Shown below are the results of running the script on the provided test images
 ![alt text](test_results_1.png)
 ![alt text](test_results_2.png)
 
-## How to run our code [Linux]
+## How to run our code Phase 1 [Linux]
 
 1. Download the code ZIP file from GitHub
 2. Place the image/video you want to test within the code directory. You can use the already provided test images
